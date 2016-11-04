@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { ClickMeComponent }     from './click-me.component';
+import { KeyUpComponent_1}      from './keyup.component';
+import {LoopbackComponent }     from './loop-back.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ClickMeComponent,
+    KeyUpComponent_1,
+    LoopbackComponent
   ],
   imports: [
     BrowserModule,
